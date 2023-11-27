@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T11:12:10.203Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OrGhX65Mjbvh-E2qHkxO" version="22.1.4" type="github">
+  <diagram name="Page-1" id="gtBP0ZVTPoxnC9NgbGe4">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rg24GamyvvdB_o121uEL-3" value="Kubernetescluster" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.supercomputer;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-4" value="KeyCloak" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="620" y="680" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-5" target="Rg24GamyvvdB_o121uEL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-5" value="Virtual network" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" parent="1" vertex="1">
+          <mxGeometry x="305" y="800" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-6" value="S3 storage" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" parent="1" vertex="1">
+          <mxGeometry x="570" y="120" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-7" value="Hyper visor" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
+          <mxGeometry x="310" y="880" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-8" value="Odoo 11" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="30" y="680" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-9" value="Odoo 12" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="30" y="600" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-11" value="Odoo 13" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="30" y="515" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-12" target="Rg24GamyvvdB_o121uEL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-12" value="Samba fileserver" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="200" y="680" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-13" target="Rg24GamyvvdB_o121uEL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-13" value="LDAP server" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" parent="1" vertex="1">
+          <mxGeometry x="400" y="680" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-11" target="Rg24GamyvvdB_o121uEL-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-9" target="Rg24GamyvvdB_o121uEL-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-8" target="Rg24GamyvvdB_o121uEL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rg24GamyvvdB_o121uEL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Rg24GamyvvdB_o121uEL-4" target="Rg24GamyvvdB_o121uEL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
